@@ -235,13 +235,6 @@ input::placeholder {
   color: #007d7b;
 }
 
-form #button {
-  background-color: #007d7b;
-  width: 300px;
-  border-radius: 10px;
-  margin: 0 auto;
-}
-
 form p {
   font-size: 16px;
   background-color: #007d7b;
@@ -267,7 +260,7 @@ footer p {
   margin-bottom: 30px;
 }
 
-.top {
+ul a:last-child {
   position: fixed;
   bottom: 0;
   right: 0px;
@@ -278,7 +271,7 @@ footer p {
   margin: 0;
 }
 
-.top:hover {
+ul a:last-child:hover {
   background-color: white;
   color: #007d7b;
 }

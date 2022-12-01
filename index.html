@@ -9,23 +9,20 @@
   </head>
   <body>
     <header>
+      <h1>TK PHOTOGRAPHY</h1>
       <nav>
-        <h1>TB PHOTOGRAPHY</h1>
+        <h2>Main Navagation</h2>
         <ul>
-          <li>ABOUT</li>
-          <li>GALLERY</li>
-          <li>CONTACT</li>
+          <a href="#"><li>ABOUT</li></a>
+          <a href="#"><li>GALLERY</li></a>
+          <a href="#"><li>CONTACT</li></a>
+          <a class="top" href="#"><li>TOP</li></a>
         </ul>
       </nav>
-    </header>
 
-    <main>
-      <section class="about">
-        <div>
-          <img src="./images/TK.png" alt="" />
-        </div>
-
-        <div class="about-text">
+      <section>
+        <img src="./images/TK.png" alt="Person taking a picture" />
+        <article>
           <h2>ABOUT</h2>
           <p>
             Hello! <br />
@@ -33,71 +30,120 @@
             lens of my camera. Landscape photography is my speciality and it's
             taken me all over the world.
           </p>
-        </div>
+        </article>
       </section>
+    </header>
 
+    <main>
       <section class="gallery">
-        <div>
+        <article>
           <h2>GALLERY</h2>
           <p>
             Here are some highlights of my work. The locations and year are in
             the caption.
           </p>
-        </div>
+        </article>
 
-        <div class="images">
+        <figure>
           <img src="./images/Chile.png" alt="Chile" />
+          <figcaption>Chile, 2001</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/Guatemala.png" alt="Guatemala" />
+          <figcaption>Guatemala, 1997</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/Hawaii.png" alt="Hawaii" />
-          <img src="./images/Italy.png" alt="Italy" />
+          <figcaption>Hawaii, 2010</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/Iran.png" alt="Iran" />
+          <figcaption>Iran, 1999</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/Ireland.png" alt="Ireland" />
+          <figcaption>Ireland, 2012</figcaption>
+        </figure>
+
+        <figure>
+          <img src="./images/Italy.png" alt="Italy" />
+          <figcaption>Italy, 2015</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/Moab-Desert.png" alt="Moab-Desert" />
+          <figcaption>Moab Desert, 2020</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/Rocky-Mountains.png" alt="Rocky-Mountains" />
+          <figcaption>Rocky Mountains, 2009</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/Switzerland.png" alt="Switzerland" />
+          <figcaption>Switzerland, 2014</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/UK.png" alt="UK" />
+          <figcaption>UK, 2005</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/USA.png" alt="USA" />
+          <figcaption>USA, 2021</figcaption>
+        </figure>
+
+        <figure>
           <img src="./images/Wyoming.png" alt="Wyoming" />
-        </div>
+          <figcaption>Wyoming, 2021</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <article>
+          <h2>CONTACT</h2>
+          <p>Please fill out this form and I'll connect with you soon.</p>
+        </article>
+
+        <form action="#">
+          <label for="name">NAME</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="YOUR FULL NAME"
+          /><br />
+
+          <label for="email">EMAIL</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ENTER YOUR EMAIL ADDRESS"
+          /><br />
+
+          <label for="text">MESSAGE</label><br />
+          <input
+            type="text"
+            id="text"
+            name="text"
+            placeholder="WHAT CAN I HELP YOU WITH"
+          /><br /><br />
+
+          <!-- <input id="button" type="submit" value="Submit" /> -->
+          <p>Submit</p>
+        </form>
       </section>
     </main>
 
     <footer>
-      <div class="footer-text">
-        <h2>CONTACT</h2>
-        <p>Please fill out this form and I'll connect with you soon.</p>
-      </div>
-
-      <form action="#">
-        <label for="name">NAME</label><br />
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="YOUR FULL NAME"
-        /><br />
-
-        <label for="email">EMAIL</label><br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="ENTER YOUR EMAIL ADDRESS"
-        /><br />
-
-        <label for="text">MESSAGE</label><br />
-        <input
-          type="text"
-          id="text"
-          name="text"
-          placeholder="WHAT CAN I HELP YOU WITH"
-        /><br /><br />
-
-        <!-- <input id="button" type="submit" value="Submit" /> -->
-        <p>Submit</p>
-      </form>
       <p class="copyright">&copy; Copyright 2021 TK Photography</p>
-      <a class="top" href="#">TOP</a>
     </footer>
   </body>
 </html>

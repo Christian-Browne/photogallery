@@ -36,15 +36,16 @@ ul {
   gap: 80px;
 }
 
-nav a {
+nav li a {
   text-decoration: none;
+  color: white;
 }
 
 nav li {
   color: white;
 }
 
-nav li:hover {
+nav a:hover {
   color: #007d7b;
   cursor: pointer;
 }
@@ -260,7 +261,7 @@ footer p {
   margin-bottom: 30px;
 }
 
-ul a:last-child {
+ul li:last-child {
   position: fixed;
   bottom: 0;
   right: 0px;
@@ -271,7 +272,6 @@ ul a:last-child {
   margin: 0;
 }
 
-ul a:last-child:hover {
+ul li:last-child:hover {
   background-color: white;
-  color: #007d7b;
 }
